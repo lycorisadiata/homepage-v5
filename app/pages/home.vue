@@ -16,7 +16,7 @@ const appConfig = useAppConfig()
 			<span style="font-size: 3rem;">👋</span>
 		</template>
 		<h1 style="font-size: 3rem;">
-			你好，<br>我是<mark>{{ appConfig.author.name }}</mark>
+			你好，我是<mark>{{ appConfig.author.name }}</mark>
 		</h1>
 		<p class="desc">
 			{{ appConfig.subtitle }}
@@ -24,39 +24,32 @@ const appConfig = useAppConfig()
 		<div>
 			<ZButton
 				icon="ri:file-list-3-line"
-				to="https://blog.zhilu.site/"
+				to="https://blog.trytobetter.cn/"
 				text="博客"
 				primary
 			/>
 			<ZButton
 				icon="ri:github-line"
-				to="https://github.com/L33Z22L11"
+				to="https://github.com/lycorisradiata"
 				text="GitHub"
 			/>
 		</div>
 	</ZField>
 
 	<ZField label="介绍">
-		<p>一名即将毕业的西安计算机本科生，目前在北京从事前端开发工作。</p>
-		<p>正在维护自己的开源博客网站，你可以在博客或QQ群和我交流。</p>
+		<p>一只将从事后端开发, 正在转向全栈工程师(AI也在学习中)的恐龙。</p>
+		<p>正在学习并开发博客网站，你可以在博客或QQ和我交流。</p>
 	</ZField>
 
 	<ZField label="近期活动">
-		<p>2024年7月完善<ZLink to="https://wiki.cooo.site/">西邮Wiki</ZLink>，8月使用Nuxt Content重构了<ZLink to="https://blog.zhilu.site/">个人博客</ZLink>。</p>
-		<p>2025年3月重构了<ZLink to="https://www.xiyoulinux.com/">西邮Linux兴趣小组</ZLink>博客后端，5月开始前端实习。</p>
+		<p>2026年3月学习并修改<ZLink to="https://blog.trytobetter.cn/">Murphy Station</ZLink>博客。</p>
 	</ZField>
 
 	<ZField label="关于主页">
 		<p>
-			感谢
-			<ZBadge link="https://github.com/KazariEX" text="KazariEX" />
-			<ZBadge link="https://github.com/isYangs" text="isYangs" />
-			等众多朋友为个人主页提供帮助。
-		</p>
-		<p>
-			主页开源在
+			主页使用
 			<ZLink to="https://github.com/L33Z22L11/homepage-v5" icon="ri:github-line">L33Z22L11/homepage-v5</ZLink>
-			上，欢迎使用、参考样式：<br>
+			开源项目, 感谢纸鹿佬的开源：
 		</p>
 		<p><ZBadge v-for="item in appConfig.fork" :key="item.link" v-bind="item" /></p>
 	</ZField>

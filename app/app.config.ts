@@ -9,56 +9,17 @@ export default defineAppConfig({
 	...homepageConfig,
 
 	footer: [
-		`© ${new Date().getFullYear()} 纸鹿本鹿 (L33Z22L11)`,
-		h('a', { href: 'https://beian.miit.gov.cn/', target: '_blank', rel: 'noopener nofollow' }, '陕ICP备2025082251号'),
+		`© ${new Date().getFullYear()} Murphy (lycorsiradiata)`,
+		h('a', { href: 'https://beian.miit.gov.cn/', target: '_blank', rel: 'noopener nofollow' }, '火星ICP备20260313号'),
 	],
 
 	// 用于在主页展示下游引用
+	// 用于显示原作者
 	fork: [
 		{
-			img: 'https://api-space.tnxg.top/avatar?s=qq',
-			link: 'https://tnxg.top/',
-			text: '天翔TNXG',
-		},
-		{
-			img: 'https://ykc.im/icon.png',
-			link: 'https://ykc.im/',
-			text: 'York Chou',
-		},
-		{
-			img: 'https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=2',
-			link: 'https://www.xlenco.top/',
-			text: 'Xlenco',
-		},
-		{
-			img: 'https://www.mugzx.top/icon.png',
-			link: 'https://www.mugzx.top/',
-			text: 'Mugzx',
-		},
-		{
-			img: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
-			link: 'https://www.kemiao.online/',
-			text: '克喵爱吃卤面',
-		},
-		{
-			img: 'https://q1.qlogo.cn/g?b=qq&nk=3310149631&s=2',
-			link: 'https://gr114.com/',
-			text: 'GreenRoc',
-		},
-		{
-			img: 'https://wsrv.nl/?url=github.com/scfcn.png%3fsize=92',
-			link: 'https://www.qxzhan.cn/',
-			text: '筱序二十',
-		},
-		{
-			img: 'https://file.furrys.im/img/logo.webp',
-			link: 'https://www.furrys.im/',
-			text: 'lpcay',
-		},
-		{
-			img: 'https://wsrv.nl/?url=github.com/zsxcoder.png%3fsize=92',
-			link: 'https://home.zsxcoder.top/',
-			text: '钟神秀',
+			img: 'https://www.zhilu.site/api/avatar.png',
+			link: 'https://www.zhilu.site/',
+			text: '纸鹿本鹿',
 		},
 	],
 
@@ -76,9 +37,9 @@ export default defineAppConfig({
 		{
 			title: '社交',
 			items: [
-				{ icon: 'ri:qq-line', text: '群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
-				{ icon: 'ri:mail-line', text: 'hi@zhilu.cyou', url: 'mailto:hi@zhilu.cyou' },
-				{ icon: 'ri:github-line', text: 'Github', url: 'https://github.com/L33Z22L11' },
+				{ icon: 'ri:qq-line', text: 'Q: 739855188', url: '' },
+				{ icon: 'ri:mail-line', text: '739855188@qq.com', url: 'mailto:739855188@qq.com' },
+				{ icon: 'ri:github-line', text: 'Github', url: 'https://github.com/lycorisradiata' },
 			],
 		},
 	] satisfies Nav,

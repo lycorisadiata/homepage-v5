@@ -1,10 +1,10 @@
 {
-  "name": "zhilu-site",
+  "name": "murphy-home",
   "type": "module",
-  "version": "4.5.0",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.28.0",
-  "homepage": "https://github.com/L33Z22L11/homepage-v5",
+  "homepage": "https://github.com/lycorisradiata/homepage-v5",
   "scripts": {
     "postinstall": "nuxt prepare",
     "dev": "nuxt dev --open",

@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 		},
 	},
 
-	compatibilityDate: '2024-08-03',
+	compatibilityDate: '2025-12-31',
 
 	components: [
 		{ path: '~/components/partial', prefix: 'Z' },
