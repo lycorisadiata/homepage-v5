@@ -18,7 +18,7 @@ const homepageConfig = {
 	timezone: 'Asia/Shanghai',
 	favicon: '/icon.png',
 	url: 'https://www.trytobetter.cn/',
-	blogAtom: 'https://www.trytobetter.cn/atom.xml',
+	blogAtom: 'https://blog.trytobetter.cn/atom.xml',
 }
 
 // https://nitro.build/config#routerules
