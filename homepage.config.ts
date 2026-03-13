@@ -6,7 +6,7 @@ const author = {
 	name: 'Murphy',
 	avatar: '',
 	email: '739855188@qq.com',
-	homepage: 'https://www.trytobetter.cn/',
+	homepage: 'https://trytobetter.cn/',
 }
 
 const homepageConfig = {
@@ -17,7 +17,7 @@ const homepageConfig = {
 	language: 'zh-CN',
 	timezone: 'Asia/Shanghai',
 	favicon: '/icon.png',
-	url: 'https://www.trytobetter.cn/',
+	url: 'https://trytobetter.cn/',
 	blogAtom: 'https://blog.trytobetter.cn/atom.xml',
 }
 
